@@ -1,0 +1,188 @@
+/* You can add custom CSS and extend Boostrap styles in this file. Remember, Bootstrap is just CSS at the end of the day! */
+
+.hero {
+  min-height: 90vh;
+  background: url(IMG_0707.jpeg) center center no-repeat;
+  background-size: cover;
+  position: relative;
+  text-align: center;
+  position: relative;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+body, html {
+    height: 100%;
+}
+#nav-top{
+  position: fixed; 
+  top: 0; 
+  left: 0; 
+  right: 0;
+  background-color: #1B2631;
+}
+/* The hero image */
+.hero{
+  background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url("IMG_0707.jpeg");
+  height: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.hero-txt {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+.Me {
+  border-radius: 50%;
+  width: 150px;
+  height: auto;
+  max-width: 100%;
+  position: relative;
+  overflow: hidden;
+  border: 6px solid #555;
+
+}
+
+#my-name{
+  font-family:"Times New Roman", Georgia, serif;
+  /* font-weight: bold; */
+  color:#1B2631   ;
+}
+#p-hero{
+  font-family: "Times New Roman", Georgia, serif;
+  color:  #17202A ;
+  font-size: 20px;
+}
+
+.navbar {
+  position: sticky;
+  top: 0;
+  z-index: 100; 
+}
+
+.parallax0 {
+  position: relative;
+  background-image: url(block.webp);
+  min-height: 30vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+	line-height: 50vh;
+}	
+.overlay h2 {
+	position: relative;
+	margin: auto;
+  font-size: ;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #fff;
+  z-index: 1;
+  text-align: center;
+  font-family: "Lucida Console", "Lucida Console", monospace;
+}
+
+#mission-section{
+  background-color:#1B2631 ;
+  color:white;
+}
+.miss-pic{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 50%;
+  width: 500px;
+  
+}
+.para{
+  text-align:center;
+  font-family: "Lucida Console", "Lucida Console", monospace;
+  font-size: auto;
+  
+}
+
+.mission-heading{
+  font-family: "Lucida Console", "Lucida Console", monospace;
+  text-align: center;
+  color: #BFC9CA
+
+}
+.parallax1 {
+  position: relative;
+  background-image: url(cs.jpeg);
+  min-height: 50vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.boot-logo{
+   display: block;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+.css-pic{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.html-logo{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.t-pic{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+#text-a{
+  text-align: center; 
+  font-family: "Lucida Console", "Lucida Console", monospace;
+  color: whitesmoke;
+}
+#skills-section{
+  background-color: #1B2631;
+  text-align: center;
+}
+#skills-h{
+  font-family: "Lucida Console", "Lucida Console", monospace;
+  color: #BFC9CA
+}
+
+.parallax2 {
+  position: relative;
+  background-image: url(cs.jpeg);
+  min-height: 30vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.contact-heading{
+  font-family: "Lucida Console", "Lucida Console", monospace;
+  font-size: 30px;
+  color: #BFC9CA;
+  font-size: ;
+  
+}
+#contact-section{
+  background-color: #1B2631;
+  color:whitesmoke;
+}
